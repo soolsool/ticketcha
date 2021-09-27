@@ -1,0 +1,258 @@
+
+.select-wrapper {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.select-seats-qty {
+    
+   
+    font-size: 16px;
+    
+   
+}
+.select-top-container {
+    display: flex;
+    border-bottom: 2px solid #dddddd;
+}
+.select-seatsnum-qty-container {
+    flex-grow: 1;
+    border-right: 1px solid #dddddd;
+    display: flex;
+}
+.select-seatsnum-container {
+    padding: 15px 0 20px 20px;
+    flex-grow: 1;
+}
+.select-seat-age {
+    width: 40px;
+}
+.select-seat-number {
+    margin-left: 10px;
+}
+.select-seat-ul {
+	margin:0;
+	display:flex;
+    list-style: none;
+
+}
+
+.select-seat-ul li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.select-seat-ul li:hover {
+    color: white;
+    background-color: #cc0000;
+    cursor: pointer;
+}
+
+.select-seat-ul-active {
+    color: white;
+    background-color: #cc0000;
+}
+
+.select-seat-ul li:not(:first-child) {
+    margin-left: 5px;
+}
+
+.select-seat-information {
+    flex-grow: 1;
+    padding: 15px 0 20px 20px;
+}
+
+.select-seat {
+   display:flex;
+    font-size: 12px;
+}
+
+.select-seat:not(:first-child) {
+    margin-top: 12px;
+}
+.reserve-number-wrapper {
+    flex-grow: 1;
+    padding-top: 15px;
+    border-left: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+.reserve-number {
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.selected-movie {
+	font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.select-seat-information-wrapper {
+    display: flex;
+}
+
+.select-theater-place {
+    font-size: 12px;
+}
+
+.select-theater-place:not(:last-child) {
+    width: 50px;
+    border-right: 1px solid #dddddd;
+}
+.select-theater-place:first-child {
+    width: 100px;
+}
+.select-theater-place:last-child {
+    width: 150px;
+}
+
+.select-theater-place:not(:first-child) {
+    margin-left: 12px;
+}
+
+.select-theater-date {
+    display: flex;
+}
+
+.select-theater-date>div {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.theater-time {
+    margin-left: 5px;
+}
+.remain-seats {
+    margin-left: 3px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.selected-seats-wrapper {
+    margin-top: 5px;
+}
+
+.selected-seats {
+    font-size: 13px;
+    word-spacing: 2px;
+    margin-left: 20px;
+}
+
+.selected-seats-title {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ticket-price-wrapper{
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+}
+.ticket-price-wrapper>div{	
+	font-weight: bold;
+}
+.ticket-price-title{
+	font-size: 13px;
+}
+
+.ticket-price {
+	margin-left: 47px;
+	font-size:20px;
+}
+.reserve-button {
+    font-size: 20px;
+    border: none;
+    border-radius:7px;
+	background-color: #cc0000;
+	color: white;
+	font-weight: bold;
+    width: 150px;
+    height:50px;
+   	margin: 20px auto;
+}
+.reserve-btn-wrapper{
+
+	text-align:center;
+}
+.seat-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.seat-wrapper {
+    background-color: white;
+    width: 700px;
+    height: 460px;
+    
+}
+
+.screen-view {
+    width: 140px;
+    color: #777777;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid #666666;
+    letter-spacing: 4px;
+}
+
+.seat {
+width: 30px;
+    height: 30px;
+    font-size: 5px;
+    background-color: #555555;
+    color: white;
+    
+}
+
+.seat:hover {
+    background-color: #cc0000;
+    color: white;
+    cursor: pointer;
+}
+
+.seat:active {
+    background-color: #cc0000;
+    color: white;
+}
+
+.clicked {
+    background-color: #cc0000;
+    color: white;
+}
+
+
+.seatButtonWrapper {
+    text-align: center;
+}
+
+.seatButtonWrapper>input {
+    width: 30px;
+    height: 30px;
+}
+
+.left-margin {
+    margin-left: 30px;
+}
+
+.right-margin {
+    margin-right: 30px;
+}
+
+.top-margin {
+    margin-top: 30px;
+}
+.disabled{
+	background-color:black;
+}
