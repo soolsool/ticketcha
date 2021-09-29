@@ -70,6 +70,19 @@ public class PayingCompleteAction implements TheaterActions {
 		switch (pay_method) {
 		case "card": 
 			pay_method = "신용/체크카드";
+			String card = request.getParameter("pay_card");
+			String[] cardno = request.getParameterValues("cardno");
+			String card_year = request.getParameter("validYear");
+			String card_month = request.getParameter("validMonth");
+			String care_pswd = request.getParameter("pswd");
+			String card_birthDate = request.getParameter("card_birthDate");
+
+			request.setAttribute("card", card);
+			request.setAttribute("cardno", cardno);
+			request.setAttribute("card_year", card_year);
+			request.setAttribute("card_month", card_month);
+			request.setAttribute("care_pswd", care_pswd);
+			request.setAttribute("card_birthDate", card_birthDate);
 			request.setAttribute("pay_method", "신용/체크카드");
 			break;
 		case "phone": 
@@ -82,12 +95,10 @@ public class PayingCompleteAction implements TheaterActions {
 			break;
 		}
 		int price = Integer.parseInt(request.getParameter("price"));
-		int pay_code = Integer.parseInt(request.getParameter("apply_num"));
 		request.setAttribute("price", price);
-		request.setAttribute("pay_code", pay_code);
 		
 		//결제 테이블에 입력
-		re = dao.insertPaying(t, pay_method, pay_code, price);
+		re = dao.insertPaying(t, pay_method, price);
 		System.out.println("결제테이블추가:"+re);
 		re = -1;
 		
