@@ -8,22 +8,23 @@
  - DB와 연동하여 예매정보 조회 및 취소 기능 구현
 <br>
 
-**메인페이지 -> 영화선택 **
+
+**메인페이지부터 영화선택까지**<br>
 <img src="https://user-images.githubusercontent.com/87021484/135799515-e38f7663-8390-4ba6-ae34-748db6c724d4.gif" height="250">
 
 <br>
 
-**고객정보입력 -> 결제 **
+**고객정보입력부터 결제까지**<br>
 <img src="https://user-images.githubusercontent.com/87021484/135800356-1bd0c1be-5bf5-4bc4-a6f5-a9f54d91db10.gif" height="250">
 
 <br>
 
-**예매정보 확인 및 취소**
+**예매정보 확인 및 취소**<br>
 <img src="https://user-images.githubusercontent.com/87021484/135800363-a040083f-3f70-4c1a-8aeb-3108ba152c78.gif" height="250">
 
 <br>
 
-**예매취소 확인**
+**예매취소 확인**<br>
 <img src="https://user-images.githubusercontent.com/87021484/135800365-c5105f3d-6517-4f40-a3ba-d861cd850008.gif" height="250">
 <br>
 <br>
