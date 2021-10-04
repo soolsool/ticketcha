@@ -9,6 +9,6 @@
 
 
 <img src="https://user-images.githubusercontent.com/87021484/135799515-e38f7663-8390-4ba6-ae34-748db6c724d4.gif" height="400">
-![__ 티켓챠! __ (1)](https://user-images.githubusercontent.com/87021484/135800356-1bd0c1be-5bf5-4bc4-a6f5-a9f54d91db10.gif)
-![티켓챠__예매 고객 정보 입력](https://user-images.githubusercontent.com/87021484/135800363-a040083f-3f70-4c1a-8aeb-3108ba152c78.gif)
-![__ 티켓챠! __](https://user-images.githubusercontent.com/87021484/135800365-c5105f3d-6517-4f40-a3ba-d861cd850008.gif)
+<img src="https://user-images.githubusercontent.com/87021484/135800356-1bd0c1be-5bf5-4bc4-a6f5-a9f54d91db10.gif">
+<img src="https://user-images.githubusercontent.com/87021484/135800363-a040083f-3f70-4c1a-8aeb-3108ba152c78.gif">
+<img src="https://user-images.githubusercontent.com/87021484/135800365-c5105f3d-6517-4f40-a3ba-d861cd850008.gif">
